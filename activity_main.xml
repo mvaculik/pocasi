@@ -24,7 +24,7 @@
                 android:id="@+id/dayTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Today"
+                android:text="Dnes"
                 android:textSize="18sp"
                 android:layout_marginBottom="8dp"
                 android:layout_centerHorizontal="true" />
@@ -33,7 +33,7 @@
                 android:id="@+id/weatherTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="21°C"
+                android:text="14°C"
                 android:textSize="18sp"
                 android:layout_below="@id/dayTextView"
                 android:layout_centerHorizontal="true" />
@@ -78,13 +78,13 @@
                     android:id="@+id/tomorrowDayTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tomorrow"
+                    android:text="Zitra"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21°C"
+                    android:text="16°C"
                     android:textSize="16sp"
                     android:layout_below="@id/tomorrowDayTextView"
                     android:layout_marginTop="4dp" />
@@ -113,13 +113,13 @@
                     android:id="@+id/dayAfterTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Day After Tomorrow"
+                    android:text="Pozitri"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="21°C"
+                    android:text="12°C"
                     android:textSize="16sp"
                     android:layout_below="@id/dayAfterTextView"
                     android:layout_marginTop="4dp" />
